@@ -2,7 +2,7 @@
 
 which >/dev/null 2>&1 socat || { echo 'install socat first' ; exit 0; }
 
-SERIAL_DEVICE="$1"
+SERIAL_DEVICE=$1
 DELAY_SECONDS=0.3
 
 # Set up a virtual terminal and link it to the serial device
