@@ -20,4 +20,4 @@ sending q
 2023/08/28 10:25:20 socat[33690] N socat_signal(): finishing signal 15
 2023/08/28 10:25:20 socat[33690] N exit(143)
 ```
-
+#### Dependency: socat
